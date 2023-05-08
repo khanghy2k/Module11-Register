@@ -33,4 +33,5 @@ function saveAccount() {
         password: passwordInput.value
     };
     localStorage.setItem('account', JSON.stringify(account));
+
 }
